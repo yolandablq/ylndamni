@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celeng'sFlix</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="favicon">
+  <!-- css styling -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="./index.html" class="logo">
+        <img src="./assets/images/logo/logo.png" alt="Filmlane logo">
+      </a>
+
+      <div class="header-actions">
+        
+        <a href="./loginpage/indexform.html" class="DAFTAR">
+          <button class="btn btn-primary">Daftar</button>
+        </a>
+
+      </div>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo/logo.png" alt="Filmlane logo">
+          </a>
+
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="./index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#movie" class="navbar-link">Movie</a>
+          </li>
+
+          <li>
+            <a href="#toprate" class="navbar-link">Top Rate</a>
+          </li>
+
+          <li>
+            <a href="#series" class="navbar-link">Series</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-social-list">
+          <li>
+            <a href="https://www.instagram.com/celengsflix/" class="navbar-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+       </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+<!-- hero section -->
+
+      <section class="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">CelengsFlix</p>
+
+            <h1 class="h1 hero-title">
+             Nonton <strong>Film</strong> & Lainnya.
+            </h1>
+
+            <div class="meta-wrapper">
+
+              <div class="badge-wrapper">
+                <div class="badge badge-fill"></div>
+
+                <div class="badge badge-outline"></div>
+              </div>
+
+              <div class="ganre-wrapper">
+                <a href="#">Action,</a>
+
+                <a href="#">Fiction</a>
+              </div>
+
+              <div class="date-time">
+
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time datetime="2023">2023</time>
+                </div>
+
+                <div>
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <time datetime="PT128M">140 min</time>
+                </div>
+
+              </div>
+
+            </div>
+
+            <button class="btn btn-primary">
+              <a href="./Video/Sp.mp4" style="color: white"> 
+              <span>Mulai Tonton</span>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+<!-- otw movie -->
+
+      <section class="upcoming" id="movie">
+        <div class="container">
+
+          <div class="flex-wrapper">
+
+            <div class="title-wrapper">
+              <p class="section-subtitle">Streaming</p>
+
+              <h2 class="h2 section-title">Movie</h2>
+            </div>
+          </div>
+
+          <ul class="movies-list  has-scrollbar">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-detaill.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/danur.jpg"
+                      alt="Doctor Strange in the Multiverse of Madness movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-detaill.html">
+                    <h3 class="card-title">Danur</h3>
+                  </a>
+
+                  <time datetime="2023">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">140 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+            
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-detaill2.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/move2.jpg"
+                    alt="jarakantarkanvas">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-detaill2.html">
+                    <h3 class="card-title">Jarak Antar Kanvas</h3>
+                  </a>
+
+                  <time datetime="2023">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">35 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.7</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+            
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-detaill3.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/movie 3.webp"
+                      alt="almost love">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-detaill3.html">
+                    <h3 class="card-title">Almost Love</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">110 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+            
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-detaill4.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/movie4.webp"
+                      alt="unlocked">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-detaill4.html">
+                    <h3 class="card-title">Unlocked</h3>
+                  </a>
+
+                  <time datetime="2023">2023</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">117 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.4</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-detaill5.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/movie5.webp"
+                    alt="Midnight">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-detaill5.html">
+                    <h3 class="card-title">The Midnight Maiden War</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">113 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.2</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+<!-- toprate -->
+      <section class="top-rated" id="toprate">
+        <div class="container">
+
+          <p class="section-subtitle">Tonton Sekarang</p>
+
+          <h2 class="h2 section-title">Movies Top Rated</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn"><a href="./movie-detaill.html"  style="color: white">Horor</a></button>
+            </li>
+
+            <li>
+              <button class="filter-btn"><a href="./series-details.html"  style="color: white">Disney</a></button>
+            </li>
+
+            <li>
+              <button class="filter-btn"><a href="./toprate-details.html"  style="color: white">Romance</a></button>
+            </li>
+
+          </ul>
+
+          <ul class="movies-list">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./toprate-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/romance (1).jpg" alt="romamce">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./toprate-details.html">
+                    <h3 class="card-title">20th Century Girl</h3>
+                  </a>
+
+                  <time datetime="2023">2023</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT122M">120 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./toprate-details2.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/toprate2.webp" alt="friend">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./toprate-details2.html">
+                    <h3 class="card-title"> One Week Friends</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT122M">106 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.7</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./toprate-details3.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/toprate3.webp" alt="thiller">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./toprate-details3.html">
+                    <h3 class="card-title"> The Childe</h3>
+                  </a>
+
+                  <time datetime="2023">2023</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT122M">118 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./toprate-details4.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/toprate4.webp" alt="OBS">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./toprate-details4.html">
+                    <h3 class="card-title"> My Blue Summer</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT122M">103 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.4</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            
+          </ul>
+
+        </div>
+      </section>
+
+<!-- series -->
+
+      <section class="tv-series" id="series">
+        <div class="container">
+
+          <p class="section-subtitle">Series Pilihan</p>
+
+          <h2 class="h2 section-title">Series Pilihan</h2>
+
+          <ul class="movies-list">
+            <li>
+              <div class="movie-card">
+
+                <a href="./series-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/frozen.jpg" alt="Frozen">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./series-details.html">
+                    <h3 class="card-title">Frozen 2</h3>
+                  </a>
+
+                  <time datetime="2023">2023</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT51M">60 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.3</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./series-details2.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/tw.webp" alt="tw">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./series-details2.html">
+                    <h3 class="card-title">The Witch</h3>
+                  </a>
+
+                  <time datetime="2018">2018</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT51M">125 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>9.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./series-details3.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/padd.jpg" alt="padd">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./series-details3.html">
+                    <h3 class="card-title">Paddel Pop Adventure</h3>
+                  </a>
+
+                  <time datetime="2011">2011</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT51M">102 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./series-details4.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/lv.jpg" alt="lrv">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./series-details4.html">
+                    <h3 class="card-title">Larva</h3>
+                  </a>
+
+                  <time datetime="2018">2018</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline"></div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT51M">66 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>6.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+<!-- footie -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo/logo.png" alt="Filmlane logo">
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="./index.html" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#movie" class="footer-link">Movie</a>
+            </li>
+
+            <li>
+              <a href="#toprate" class="footer-link">Top Rate</a>
+            </li>
+
+            <li>
+              <a href="#series" class="footer-link">Series</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="https:/wa.me/089526370227" class="quicklink-link">Contact</a>
+            </li>
+
+            <li>
+              <a href="celengflixpepeleg@gmail.com" class="quicklink-link">Email</a>
+            </li>
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.instagram.com/celengsflix/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">CelengsFlix</a>. Adinda Chelsea, Ananda Apriliana, Nila Ika Nur Alia, Siska Tri, Tsuraya Dinan, Yolanda Bilqis.
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+<!-- to top -->
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+<!-- js -->
+  <script src="./assets/js/script.js"></script>
+
+ <!-- icon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
